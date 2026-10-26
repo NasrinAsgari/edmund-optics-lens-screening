@@ -9,7 +9,7 @@ Example Result
 
 The plot compares miniature lens candidates using an ideal thin-lens Gaussian-beam model.
 
-
+![Edmund Optics lens comparison bubble scatter plot](edmund_lens_bubble_scatter.png)
 
 X-axis: Minimum half-angle divergence (mrad)
 
