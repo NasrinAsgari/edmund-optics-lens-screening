@@ -1,8 +1,26 @@
 # Edmund Optics Miniature-Lens Screening
 
+
 A small Python project for comparing candidate miniature lenses using an **ideal thin-lens Gaussian-beam model**. It produces a bubble scatter plot and exports the calculated results as a CSV file.
 
 > **Important:** This is an exploratory screening tool, not a validated optical-design or ray-tracing program. Verify all lens specifications against current manufacturer datasheets. The model does not account for detailed lens prescriptions, aberrations, mechanical tolerances, or aperture clipping.
+
+Example Result
+
+The plot compares miniature lens candidates using an ideal thin-lens Gaussian-beam model.
+
+
+
+X-axis: Minimum half-angle divergence (mrad)
+
+Y-axis: Beam diameter 5 mm after the lens (µm)
+
+Color: Modeled output waist diameter (µm)
+
+Dashed line: Target beam diameter of 180 µm
+
+Note: This is an exploratory screening model, not a substitute for detailed optical design or experimental validation.
+
 
 ## What it does
 
